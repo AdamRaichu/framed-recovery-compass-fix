@@ -56,7 +56,7 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-version: "${{ env.mod_version }}.${{ env.minecraft_version }}"
 
-          curseforge-id: 971238
+          curseforge-id: 980852
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
 
           github-tag: v${{ env.mod_version }}-${{ env.minecraft_version }}
