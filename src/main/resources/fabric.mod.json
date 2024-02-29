@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "framed-recovery-compass-fix",
+  "version": "$version",
+  "icon": "assets/framed-recovery-compass-fix/icon.png",
+  "name": "Framed Recovery Compass Fix",
+  "description": "Makes the Recovery Compass actually work when in an Item Frame.",
+  "authors": [
+    "AdamRaichu"
+  ],
+  "contact": {},
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.adamraichu.framedrecoverycompassfix.FramedRecoveryCompassFix"
+    ]
+  },
+  "mixins": [
+    "framed-recovery-compass-fix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.0",
+    "fabric-loader": ">=0.15.7"
+  }
+}
